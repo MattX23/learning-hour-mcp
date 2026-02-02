@@ -1,0 +1,27 @@
+{
+  "name": "learning-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for learning from articles and documents",
+  "type": "module",
+  "bin": {
+    "learning-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["mcp", "learning", "education"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "turndown": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/turndown": "^5.0.4",
+    "typescript": "^5.0.0"
+  }
+}
