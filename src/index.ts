@@ -148,7 +148,7 @@ server.registerTool(
             ? `Loaded content:\n\n${contentList.map(c =>
                 `- ID: ${c.id}\n  Title: ${c.title}\n  Sections: ${c.sections}\n  Source: ${c.source}\n  Loaded: ${c.loadedAt}`
               ).join('\n\n')}`
-              : 'No content currently loaded. Use the load_content tool to add content.',
+            : 'No content currently loaded. Use the load_content tool to add content.',
         },
       ],
     };
